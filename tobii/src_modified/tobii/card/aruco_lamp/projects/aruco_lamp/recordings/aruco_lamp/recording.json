@@ -1,0 +1,26 @@
+{
+    "rec_id": "aruco_lamp",
+    "rec_info": {
+        "EagleId": "7d94751d-8d59-490d-9272-48b8e5efa091",
+        "Name": "aruco_lamp",
+        "Notes": ""
+    },
+    "rec_participant": "yprquou",
+    "rec_project": "aruco_lamp",
+    "rec_state": "done",
+    "rec_segments": 1,
+    "rec_length": 6,
+    "rec_calibration": "xwgejcq",
+    "rec_created": "2022-10-26T20:02:06+0000",
+    "rec_et_samples": 346,
+    "rec_et_valid_samples": 333,
+    "ts_right_x": -32.5,
+    "ts_right_y": -27.0,
+    "ts_right_z": -19.0,
+    "ts_left_x": 32.5,
+    "ts_left_y": -27.0,
+    "ts_left_z": -19.0,
+    "ts_green_limit_radius": 10.0,
+    "ts_yellow_limit_radius": 12.5
+}
+

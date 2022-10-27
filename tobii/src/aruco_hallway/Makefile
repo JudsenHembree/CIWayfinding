@@ -1,7 +1,7 @@
 UNAME           = $(shell uname)
 
 ifeq ($(UNAME),Linux)
-PYTHON = /usr/bin/python
+PYTHON = /usr/bin/python3
 endif
 
 ifeq ($(UNAME),Darwin)

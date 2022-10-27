@@ -1,0 +1,25 @@
+{
+	"Tobii":{
+		"smooth": false
+	},
+	"General":{
+		"width": 1920,
+		"height": 1080,
+		"hz": 50,
+		"dist": 22.24,
+		"screen": 22,
+		"xtiles": 2,
+		"ytiles": 1
+	},
+	"locations":{
+		"sd": "../../card/aruco_lamp/",
+		"prj": "../../card/aruco_lamp/projects",
+		"in": "../../data/aruco_lamp/",
+		"vid": "../../data/aruco_lamp/",
+		"video": "../../data/aruco_lamp/aruco_lamp.mp4",
+		"plt": "./plots/",
+		"out": "./data/",
+		"raw": "./data/raw/",
+		"rawfile": "./data/raw/aruco_lamp.raw"
+	}
+}
