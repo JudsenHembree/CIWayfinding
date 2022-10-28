@@ -6,6 +6,7 @@ import shlex
 import sys
 import getopt
 import os
+import glob
 import numpy as np
 from subprocess import Popen, PIPE
 
@@ -22,7 +23,17 @@ def processCfg(file):
 def dirs():
     dirertories = ["data", "data/raw", "plots", "figs", "figs/TMS"]
     for d in dirertories:
-        os.mkdir(d)
+        try:
+            os.mkdir(d)
+        except:
+            files = glob.glob(d + '/*')
+            for file in files:
+                try:
+                    os.remove(file)
+                except IsADirectoryError:
+                    print("Skipping directory " + file)
+
+            
 
 def test():
     print("test")
