@@ -112,7 +112,7 @@ def main(argv):
     exit()
 
   outdir = "./"
-  outid = "../../data/aruco_lamp"
+  outid = ""
   file = None
 
   for opt,arg in opts:
@@ -128,6 +128,10 @@ def main(argv):
       outid = arg
     else:
       sys.argv[1:]
+
+  if outid == "":
+    print("failed to find outid in args. AKA failed json generation. Exiting()")
+    exit()
 
   files = []
 
@@ -219,8 +223,8 @@ def main(argv):
     print("file: ", file) 
 
   outfile = None
-  outfile = open(outdir + 'aruco_lamp.json','w+')
-  print('Outfile: %s' % (outdir + 'aruco_lamp.json'))
+  outfile = open(outdir + 'generated.json','w')
+  print('Outfile: %s' % (outdir + 'generated.json'))
   print(json.dumps(info, sort_keys=True, indent=2), file=outfile)
 
   outfile.close()

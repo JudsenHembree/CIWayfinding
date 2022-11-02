@@ -1,0 +1,5 @@
+{
+    "given": "../data/aruco_lamp/aruco_lamp.mp4",
+    "card": "../card/",
+    "data": "../data/"
+}
