@@ -1,9 +1,0 @@
-mkdir data
-cd data
-mkdir raw
-cd ..
-mkdir plots
-mkdir figs
-cd figs
-mkdir TMS
-cd ..
