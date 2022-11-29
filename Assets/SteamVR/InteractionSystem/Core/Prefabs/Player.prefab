@@ -261,7 +261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 202a6e24b48d1684398409c47161adcb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  trackingOriginTransform: {fileID: 447954}
+  trackingOriginTransform: {fileID: 472612}
   hmdTransforms:
   - {fileID: 429506}
   - {fileID: 496744}
