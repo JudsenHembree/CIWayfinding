@@ -184,7 +184,7 @@ namespace Valve.VR
 
         void ISerializationCallbackReceiver.OnAfterDeserialize()
         {
-            InitAfterDeserialize();
+            //InitAfterDeserialize();
         }
     }
 
